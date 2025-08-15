@@ -57,6 +57,7 @@ Scalable and secure deployment using AWS services such as S3, EC2, Lambda, and A
 
 ## 📂 Project Structure
 
+```plaintext
 DOCUMENT_PORTAL/
 │
 ├── config/                    # Configuration files
