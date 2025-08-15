@@ -1,0 +1,10 @@
+[ 2025-07-26 16:09:05,562 ] ERROR exception_experiment (line:24) - 
+        Error in file [C:\Users\gunav\AppData\Local\Temp\ipykernel_17788\495899172.py at line 20]
+        Message : division by zero
+        Traceback: 
+        Traceback (most recent call last):
+  File "C:\Users\gunav\AppData\Local\Temp\ipykernel_17788\495899172.py", line 20, in <module>
+    a = 1/0
+ZeroDivisionError: division by zero
+
+        

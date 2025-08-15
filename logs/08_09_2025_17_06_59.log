@@ -1,0 +1,24 @@
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-08-09T11:37:00.778392Z", "level": "info", "event": "Config loaded successfully"}
+{"temp_base": "data\\multi_document_chat", "faiss_base": "faiss_index", "session_id": "session_20250809_113700_8e47a606", "temp_path": "data\\multi_document_chat\\session_20250809_113700_8e47a606", "faiss_path": "faiss_index\\session_20250809_113700_8e47a606", "timestamp": "2025-08-09T11:37:00.778392Z", "level": "info", "event": "DocumentIngestor initialized"}
+{"filename": "data/multi_document_chat/market_analysis_report.docx", "saved_as": "data\\multi_document_chat\\session_20250809_113700_8e47a606\\bf3ff237.docx", "session_id": "session_20250809_113700_8e47a606", "timestamp": "2025-08-09T11:37:00.778392Z", "level": "info", "event": "File saved for ingestion"}
+{"filename": "data/multi_document_chat/NIPS-2017-attention-is-all-you-need-Paper.pdf", "saved_as": "data\\multi_document_chat\\session_20250809_113700_8e47a606\\7b7b0f3d.pdf", "session_id": "session_20250809_113700_8e47a606", "timestamp": "2025-08-09T11:37:00.820336Z", "level": "info", "event": "File saved for ingestion"}
+{"filename": "data/multi_document_chat/sample.pdf", "saved_as": "data\\multi_document_chat\\session_20250809_113700_8e47a606\\047263a7.pdf", "session_id": "session_20250809_113700_8e47a606", "timestamp": "2025-08-09T11:37:01.531572Z", "level": "info", "event": "File saved for ingestion"}
+{"filename": "data/multi_document_chat/state_of_the_union.txt", "saved_as": "data\\multi_document_chat\\session_20250809_113700_8e47a606\\15ce23c4.txt", "session_id": "session_20250809_113700_8e47a606", "timestamp": "2025-08-09T11:37:08.789059Z", "level": "info", "event": "File saved for ingestion"}
+{"total_docs": 90, "session_id": "session_20250809_113700_8e47a606", "timestamp": "2025-08-09T11:37:08.806944Z", "level": "info", "event": "All documents loaded"}
+{"total_chunks": 483, "session_id": "session_20250809_113700_8e47a606", "timestamp": "2025-08-09T11:37:08.826639Z", "level": "info", "event": "Documents split into chunks"}
+{"timestamp": "2025-08-09T11:37:08.827757Z", "level": "info", "event": "Loading embedding model..."}
+Loading faiss with AVX512 support.
+Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+Loading faiss with AVX2 support.
+Successfully loaded faiss with AVX2 support.
+Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+{"path": "faiss_index\\session_20250809_113700_8e47a606", "session_id": "session_20250809_113700_8e47a606", "timestamp": "2025-08-09T11:37:33.708110Z", "level": "info", "event": "FAISS index saved to disk"}
+{"session_id": "session_20250809_113700_8e47a606", "timestamp": "2025-08-09T11:37:33.708110Z", "level": "info", "event": "FAISS retriever created and ready to use"}
+{"config_keys": ["faiss_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-08-09T11:37:33.714965Z", "level": "info", "event": "Config loaded successfully"}
+{"timestamp": "2025-08-09T11:37:33.714965Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-08-09T11:37:33.714965Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "test_multi_doc_chat", "timestamp": "2025-08-09T11:37:33.730603Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "test_multi_doc_chat", "timestamp": "2025-08-09T11:37:33.730603Z", "level": "info", "event": "LCEL graph built successfully"}
+{"session_id": "test_multi_doc_chat", "timestamp": "2025-08-09T11:37:33.730603Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"session_id": "test_multi_doc_chat", "user_input": "explain briefly what transformer is ", "answer_preview": "The Transformer is a novel network architecture based solely on attention mechanisms. It dispenses with recurrence and convolutions entirely. Experime", "timestamp": "2025-08-09T11:37:37.217570Z", "level": "info", "event": "Chain invoked successfully"}
