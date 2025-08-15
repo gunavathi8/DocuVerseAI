@@ -94,7 +94,7 @@ DOCUMENT_PORTAL/
 ├── setup.py                   # Package/module setup file
 └── README.md                  # 📘 You’re here!
 
-'''
+```
 
 ## 🚀 How It Works
 - Upload Documents — via UI or API.
