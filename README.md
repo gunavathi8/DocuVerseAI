@@ -1,4 +1,4 @@
-# 📄 Document Portal LLMOps Project 🚀
+# 📄 DocuVerse AI - an LLMOps Project 🚀
 
 An end-to-end LLMOps-powered Document Intelligence Platform that enables users to interact with documents like never before. From semantic understanding to side-by-side comparison and intelligent querying — all deployed and automated using modern CI/CD practices on AWS.
 
