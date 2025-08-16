@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "OIfRRTdjBN1TPOrdopEtU",
+      "type": "text",
+      "x": 245.8000030517578,
+      "y": 158,
+      "width": 564.6395263671875,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 1235648720,
+      "version": 161,
+      "versionNonce": 1746596912,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1755334828960,
+      "link": null,
+      "locked": false,
+      "text": "1. Branching in github\n   - first we do in dev branch\n   - then merge to main branch\n\n2. AWS configurations | Account | Setting up the services\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "1. Branching in github\n   - first we do in dev branch\n   - then merge to main branch\n\n2. AWS configurations | Account | Setting up the services\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
