@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from pathlib import Path
-
+#from utils.document_ops import FastAPIFileAdapter, read_pdf_via_handler
 from src.document_ingestion.data_ingestion import (
     DocHandler,
     DocumentComparator,
@@ -16,6 +16,7 @@ from src.document_ingestion.data_ingestion import (
 from src.document_analyser.data_analysis import DocumentAnalyzer
 from src.document_compare.doc_comparer import DocumentCompareAgent
 from src.document_chat.retrieval import ConversationalRAG
+
 
 FAISS_BASE = os.getenv("FAISS_BASE", "faiss_index")
 UPLOAD_BASE = os.getenv("UPLOAD_BASE", "data")
@@ -160,4 +161,4 @@ def _read_pdf_via_handler(handler: DocHandler, path: str) -> str:
 
 # command for executing the fast api
 # uvicorn api.main:app --reload    
-#uvicorn api.main:app --host 0.0.0.0 --port 8080 --reload
+# uvicorn api.main:app --host 0.0.0.0 --port 8080 --reload
