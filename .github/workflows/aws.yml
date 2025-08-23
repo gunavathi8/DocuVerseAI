@@ -8,10 +8,10 @@ on:
 
 
 env:
-  AWS_RESION: us-east-1
-  ECR_REPOSITORY: DocuVerseAI
-  ECS_SERVICE: DocuVerseAI-service
-  ECS_CLUSTER: DocuVerseAI-cluster
+  AWS_RESION: eu-north-1
+  ECR_REPOSITORY: docuverseai
+  ECS_SERVICE: docuverseai-service
+  ECS_CLUSTER: docuverseai-cluster
   ECS_TASK_DEFINITION: .github/workflows/task-definition.json
   CONTAINER_NAME: docu-verse-ai-container
 

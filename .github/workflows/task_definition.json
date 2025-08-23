@@ -48,7 +48,7 @@
         "logDriver": "awslogs",
         "options": {
           "awslogs-group": "/ecs/DocuVerseAI",
-          "awslogs-region": "us-east-1",
+          "awslogs-region": "eu-north-1",
           "awslogs-stream-prefix": "ecs",
           "awslogs-create-group": "false",
           "mode": "non-blocking",
