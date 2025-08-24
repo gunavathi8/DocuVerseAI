@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Full ECS + ECR + VPC Infra for Document Portal with secrets and logging
+Description: Full ECS + ECR + VPC Infra for DocuVerse AI with secrets and logging
 
 Parameters:
   VpcCIDR:
