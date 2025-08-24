@@ -8,7 +8,7 @@ on:
 
 
 env:
-  AWS_RESION: eu-north-1
+  AWS_REGION: eu-north-1
   ECR_REPOSITORY: docuverseai
   ECS_SERVICE: docuverseai-service
   ECS_CLUSTER: docuverseai-cluster
