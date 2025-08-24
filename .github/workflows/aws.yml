@@ -12,7 +12,7 @@ env:
   ECR_REPOSITORY: docuverseai
   ECS_SERVICE: docuverseai-service
   ECS_CLUSTER: docuverseai-cluster
-  ECS_TASK_DEFINITION: .github/workflows/task-definition.json
+  ECS_TASK_DEFINITION: .github/workflows/task_definition.json
   CONTAINER_NAME: docu-verse-ai-container
 
 permissions:
